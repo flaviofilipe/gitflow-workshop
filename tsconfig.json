@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "resolveJsonModule": true,
+      "outDir": "dist",
+      "module": "commonjs",
+      "target": "es2019",
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "plugins": [{ "name": "typescript-tslint-plugin" }]
+    },
+      "include": ["src/**/*.ts", "tests/**/*.ts"],
+      "exclude": ["node_modules/**/*", ".webpack/**/*", "_warmup/**/*", ".vscode/**/*"],
+  }
+  

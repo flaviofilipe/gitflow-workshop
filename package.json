@@ -1,0 +1,31 @@
+{
+  "name": "gitflow-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.ts",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "tsc && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviofilipe/gitflow-workshop.git"
+  },
+  "author": "Flávio Filipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flaviofilipe/gitflow-workshop/issues"
+  },
+  "homepage": "https://github.com/flaviofilipe/gitflow-workshop#readme",
+  "dependencies": {
+    "jest": "^27.0.4",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.2.5",
+    "@types/faker": "^5.5.6",
+    "@types/jest": "^26.0.22",
+    "faker": "^5.5.3",
+    "tslint": "^6.1.3"
+  }
+}

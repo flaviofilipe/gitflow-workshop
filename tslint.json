@@ -1,0 +1,22 @@
+{
+    "extends": ["tslint-config-airbnb"],
+    "indent": [true, "tabs", 2],
+    "rules": {
+      "align": [true, "parameters", "statements"],
+      "ter-arrow-parens": [false],
+      "trailing-comma": [
+        true,
+        {
+          "multiline": "never",
+          "singleline": "never",
+          "esSpecCompliant": true
+        }
+      ],
+      "variable-name": [true, "allow-leading-underscore"],
+      "semicolon": false
+    },
+    "compilerOptions": {
+      "plugins": [{ "name": "typescript-tslint-plugin" }]
+    }
+  }
+  
